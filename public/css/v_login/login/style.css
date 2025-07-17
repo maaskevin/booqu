@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  /* margin: auto; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  height: 70vh;
+  margin: 20vh auto;
+}
+
+/* LEFT PANEL */
+.left-panel {
+  flex: 1;
+  background: linear-gradient(to bottom, #0c2e4e, #1f1f1f);
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.welcome-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.welcome-text p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 30px;
+  height: 5px;
+  background: #777;
+  border-radius: 5px;
+}
+
+.dot.active {
+  background: #fff;
+}
+
+.author {
+  text-align: center;
+}
+
+.author img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+.author h3 {
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.author p {
+  color: #ccc;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  flex: 1;
+  background: #fff;
+  padding: 60px 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  width: 100%;
+  max-width: 350px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f44336;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.subtext {
+  color: #999;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button,a {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a.register {
+  background: #fff;
+  color: #f44336;
+  border: 2px solid #f44336;
+}
+
+button.login {
+  background: #f44336;
+  color: #fff;
+}

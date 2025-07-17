@@ -1,0 +1,116 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.book-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.book-section h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.subtext {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.book-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.book-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fav-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #ff4d4f;
+  color: white;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.rating {
+  margin: 10px 0;
+  color: #ffc107;
+  font-size: 18px;
+}
+
+.book-card h3 {
+  font-size: 15px;
+  margin: 10px 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  color: #e53935;
+  margin-bottom: 15px;
+}
+
+.checkout-btn {
+  padding: 8px 20px;
+  border: 1px solid #000;
+  background: white;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background:#e53935;
+  color: #fff;
+}
+.orenge-icon{
+  color: white;
+  padding: 10px;
+  background: #e53935;
+  border: none;
+}
+.no-border{
+  /* border: 1px solid black; */
+  border-radius: 50%;
+
+}
+.no-bg{
+  margin-top: 5px;
+  background-color: white;
+  border: none;
+}

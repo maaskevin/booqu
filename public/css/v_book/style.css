@@ -1,0 +1,97 @@
+
+
+
+.category-section {
+  padding: 0 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color:blue
+}
+
+.category-section button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.category-section .active {
+  background: #fc350b;
+  color: white;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+
+.book-grid {
+   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.book-card img {
+  width: 100px;
+  height: 140px;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff3c1f;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.book-card h4 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+.book-card .price {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.view-btn {
+  border: 1px solid #888;
+  background: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  /* margin: auto; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.book-card h4{
+  min-height: 5vh;
+}

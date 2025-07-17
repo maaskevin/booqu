@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Container utama */
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 10vh auto;
+}
+
+/* Wallet bar di dalam container */
+.wallet-bar-inside {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px 15px 30px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.wallet-left h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.wallet-balance {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #111;
+}
+
+.toggle-visibility {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.topup-button {
+  background-color: #ff2d00;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.topup-button:hover {
+  background-color: #e62800;
+}
+
+.icon-muted {
+  opacity: 0.5;
+}
+
+/* Sidebar profile */
+.profile-sidebar {
+  /* background: #ff2d00; */
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  width: 35%;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-sidebar h3 {
+  margin: 10px 0 5px;
+}
+
+.email {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.edit-button {
+  padding: 10px 25px;
+  background: white;
+  color: #ff2d00;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-button:hover {
+  background: #ffd3cc;
+}
+
+/* Form section */
+.profile-form {
+  padding: 30px;
+  flex: 1;
+}
+
+.profile-form h2 {
+  margin-bottom: 5px;
+}
+
+.profile-form .desc {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.profile-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.password-row {
+  display: flex;
+  gap: 15px;
+}
+
+.password-row div {
+  flex: 1;
+}
+
+.profile-form .form-button {
+  width: 100%;
+  background: #ff2d00;
+  color: white;
+  margin-top: 10px;
+}
